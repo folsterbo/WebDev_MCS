@@ -1,0 +1,85 @@
+@import url(reset.css);
+body{
+	width: 1440px;
+	height: 2427px;
+}
+.header{
+	height: 200px;
+	background-color: #E5E000;
+}
+.name{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	line-height: 57px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
+	width: 550px;
+	height: 40px;
+	padding-left: 80px; 
+	padding-top: 80px;
+}
+.main{
+	height: 2027px;
+	background-color: #FFFFFF;
+	}
+.image{
+	height: 1080px;
+	background-image: url(../img/driko.jpg);
+	background-size: cover;
+}
+.links{
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-left: 80px;
+	background-color: #E5E000;
+	background-position: left: 0px; top: 1280px;
+}
+a{
+	font-family: Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 25px;
+	line-height: 29px;
+	color: #FFFFFF;
+	height: 22px;
+}
+.section2{
+	width: 1280px;
+	height: 637px;
+	padding-left: 80px; 
+	padding-top: 80px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-size: 50px;
+	line-height: 57px;
+	color: #000000;
+}
+h2{
+	font-weight: bold;
+}
+p{
+	margin-top: 70px;
+}
+.footer{
+	height: 200px;
+	background-color: #E5E000;
+	background-image: url(../img/logo.png);
+	background-size: 205px 46px;
+	background-repeat: no-repeat;
+	background-position: 80px 77px;
+}
+.footerText{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	line-height: 57px;
+	display: flex;
+	align-items: right;
+	color: #FFFFFF;
+	padding-left: 746px;
+	padding-top: 68px;
+}
