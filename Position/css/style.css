@@ -1,0 +1,72 @@
+@import url(reset.css);
+body{
+	width: 1440px;
+}
+.header, .footer{
+	width: 1440px;
+	height: 60px;
+	background-color: #FE1A19;
+	position: absolute;
+}
+.footer{
+	top: 964px; 
+}
+.name{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 23px;
+	color: #FFFFFF;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.main{
+	width: 1440px;
+	height: 964px;
+	background-color: #E5E5E5;
+	position: relative;
+	top: 60px;
+}
+.column{
+	position: absolute;
+	display: inline-block;
+	width: 400px;
+	height: 800px;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	top: 52px;
+}
+.one{
+	left: 70px;
+}
+.two{
+	left: 520px;
+}
+.three{
+	left: 970px;
+}
+h1{
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: bold;
+	color: #000000;
+	padding-top: 33px;
+	padding-left: 33px;
+}
+section{
+	width: 334px;
+	height: 670px;
+	position: absolute;
+	top: 97px;
+}
+p{
+	font-family: Times New Roman;
+	font-size: 20px;
+	line-height: 23px;
+	color: #000000;	
+	padding-bottom: 33px;
+}
+.recepy{
+	left: 33px;
+}
