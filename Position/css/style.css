@@ -3,13 +3,8 @@ body{
 	width: 1440px;
 }
 .header, .footer{
-	width: 1440px;
 	height: 60px;
 	background-color: #FE1A19;
-	position: absolute;
-}
-.footer{
-	top: 964px; 
 }
 .name{
 	font-family: Helvetica, Arial, sans-serif;
@@ -20,30 +15,23 @@ body{
 	padding-left: 20px;
 }
 .main{
-	width: 1440px;
-	height: 964px;
+	height: 904px;
 	background-color: #E5E5E5;
-	position: relative;
-	top: 60px;
+	box-sizing: border-box;
+	padding: 52px 70px;
+	font-size: 0px;
 }
 .column{
-	position: absolute;
 	display: inline-block;
 	width: 400px;
 	height: 800px;
 	border: 5px solid #E5E000;
 	box-sizing: border-box;
 	border-radius: 30px;
-	top: 52px;
+	padding: 33px;
 }
-.one{
-	left: 70px;
-}
-.two{
-	left: 520px;
-}
-.three{
-	left: 970px;
+.one,.two{
+	margin-right: 40px;
 }
 h1{
 	font-family: Helvetica;
@@ -51,22 +39,11 @@ h1{
 	line-height: 23px;
 	font-weight: bold;
 	color: #000000;
-	padding-top: 33px;
-	padding-left: 33px;
-}
-section{
-	width: 334px;
-	height: 670px;
-	position: absolute;
-	top: 97px;
 }
 p{
 	font-family: Times New Roman;
 	font-size: 20px;
 	line-height: 23px;
 	color: #000000;	
-	padding-bottom: 33px;
-}
-.recepy{
-	left: 33px;
+	padding-top: 33px;
 }
