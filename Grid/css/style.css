@@ -2,15 +2,18 @@
 body{
 	width: 1440px;
 }
+*{
+	box-sizing: border-box;
+}
 .header{
 	width: 1440px;
 	height: 140px;
 	background-color: #FFFFFF;
 	position: fixed;
+	top: 0;
 	display: flex;
 	align-items: center;
 	z-index: 1;
-	box-sizing: border-box;
 	padding: 0px 50px;
 	justify-content: space-between;
 }
@@ -29,8 +32,7 @@ body{
 .main{
 	width: 1440px;
 	background-color: #FFFFFF;
-	position: relative;
-	top: 140px;
+	margin-top: 140px;
 }
 .image{
 	height: 950px;
@@ -46,13 +48,9 @@ body{
 	margin: auto;
 }
 .text{
-	position: relative;
 	width: 1040px;
 	height: 280px;
-	left: 201px;
-	top: 150px;
 	border: 3px solid #F8BFC7;
-	box-sizing: border-box;
 	padding: 21px;
 	border-radius: 20px;
 	font-family: Arial;
@@ -63,16 +61,15 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	margin: 150px 200px;
 }
 .bottle{
-	position: relative;
 	width: 1040px;
 	height: 969px;
-	left: 200px;
-	top: 300px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	margin: 0px 200px;
 }
 .bottleImage{
 	width: 1040px;
@@ -92,21 +89,16 @@ body{
 	justify-content: space-between;
 }
 .discription{
-	position: relative;
 	width: 1040px;
 	height: 280px;
-	left: 201px;
-	top: 456px;
 	border: 3px solid #F8BFC7;
-	box-sizing: border-box;
 	border-radius: 20px;
 	display: flex;
 	flex-direction: row;
 	padding: 27px 27px 27px 77px;
+	margin: 150px 200px;
 }
 .discription>img{
-	width: 101px;
-	height: 220px;
 	padding-right: 80px;
 }
 .discriptionText{
@@ -120,14 +112,11 @@ body{
 	justify-content: space-between;
 }
 .footer{
-	position: relative;
 	width: 1440px;
 	height: 140px;
-	top: 746px;
 	background: #F8BFC7;
 	display: flex;
 	align-items: center;
-	box-sizing: border-box;
 	padding: 0px 50px;
 	justify-content: space-between;
 }
