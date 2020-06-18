@@ -33,17 +33,25 @@ body{
 .one,.two{
 	margin-right: 40px;
 }
-h1{
+.title1{
 	font-family: Helvetica;
 	font-size: 20px;
 	line-height: 23px;
 	font-weight: bold;
 	color: #000000;
+	padding-bottom: 33px;
 }
-p{
+.title2{
+	font-family: Times New Roman;
+	font-size: 20px;
+	line-height: 23px;
+	color: #000000;
+	text-transform: uppercase;
+}
+.ingredient{
 	font-family: Times New Roman;
 	font-size: 20px;
 	line-height: 23px;
 	color: #000000;	
-	padding-top: 33px;
+	padding-bottom: 33px;
 }
