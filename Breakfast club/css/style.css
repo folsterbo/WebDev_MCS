@@ -20,6 +20,7 @@
 }
 .columns{
 	max-width: 1440px;
+	min-width: min-content;
 	margin: auto;
 	display: flex;
 	justify-content: space-between;

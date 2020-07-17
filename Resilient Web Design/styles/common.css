@@ -1,0 +1,10 @@
+/* Файл для общих стилей, которые 
+нужны на более чем одной странице  */
+@charset "UTF-8";
+
+body {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+} 
