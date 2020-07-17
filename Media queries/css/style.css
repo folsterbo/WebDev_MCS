@@ -59,7 +59,7 @@ flex-wrap:wrap не разбивает двухколоночный макет*/
 	}
 }*/
 
-@media screen and (min-width: 685px) { 
+@media screen and (min-width: 667px) { 
 	.blocks{
 		max-width: 144rem;
 		padding: 10rem 10rem;
