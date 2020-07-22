@@ -24,7 +24,6 @@ html{
 	color: #FFFFFF;
 }
 .blocks{
-	/*max-width: 144rem;*/
 	padding: 0rem 2.2rem 0rem 2.3rem;
 	background: #FFFFFF;
 	display: flex;
@@ -50,21 +49,12 @@ html{
 	color: #000000;
 	margin: auto;
 }
-/*Уменьшив размер шрифта при этой ширине,
-flex-wrap:wrap не разбивает двухколоночный макет*/
-/*@media screen and (max-width: 850px) { 
-	.text{
-		font-size: 4.5rem;
-		line-height: 4.7rem;
-	}
-}*/
 
 @media screen and (min-width: 667px) { 
 	.blocks{
 		max-width: 144rem;
 		padding: 10rem 10rem;
 		justify-content: center;
-		/*align-items: center;*/
 	}
 	.block{
 		width: calc(50% - 2rem);
@@ -72,7 +62,7 @@ flex-wrap:wrap не разбивает двухколоночный макет*/
 		margin: 1rem;
 	}
 	.text{
-		font-size: 5.5rem;
-		line-height: 5.7rem;
+		font-size: 3.82vw;
+		line-height: 3.96vw;
 	}
 }
