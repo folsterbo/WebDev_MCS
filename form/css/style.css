@@ -1,0 +1,150 @@
+@import url(reset.css);
+*{
+	box-sizing: border-box;
+}
+html{
+	font-size: 10px;
+}
+body{
+	font-size: 2rem;
+	line-height: 2.3rem;
+	font-family: Helvetica;
+}
+a{
+	text-decoration: none;
+}
+.header,.footer{
+	max-width: 1440px;
+	height: 9rem;
+	background-color: #F8BFC7;
+	display: flex;
+	align-items: center;
+	padding: 0 3.5rem;
+	margin: auto;
+	justify-content: space-between;
+}
+.header-text,.footer-text{
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 0 1.5rem;
+}
+.header-text{
+	color: #000000;
+}
+.footer-text{
+	color: #FFFFFF;	
+}
+.main{
+	max-width: 1440px;
+	margin: auto;
+}
+.action{
+	width: 320px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.page{
+	background-image: url(../img/background.png);
+	background-size: cover;
+	background-position: center center;
+	padding: 9rem;
+}
+.personal{
+	background: #F8BFC7;
+	border: 3px solid #FFFFFF;
+	border-radius: 20px;
+	padding: 1.4rem 3rem 3rem;
+}
+input[type="text"],input[type="email"],select[name="gift"] {
+	width: 100%;
+	height: 3rem;
+	border: none;
+	background-color: #F8BFC7;
+	border-bottom: 1px solid #FFFFFF;
+	font-family: Times New Roman;
+	color: #FFFFFF;
+	font-size: inherit;
+}
+option{
+	font-family: Times New Roman;
+	color: #FFFFFF;
+}
+label{
+	display: block;
+	line-height: 2rem;
+	width: 100%;
+	padding: 1.6rem 0;
+	text-align: left;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+input[type="submit"] {
+	width: 20rem;
+	height: 6rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #FEB700;
+	border: 3px solid #FFFFFF;
+	border-radius: 30px;
+	font-size: inherit;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 1rem;
+}
+.text-content{
+	height: 20rem;
+	background-color: #336fd1;;
+}
+.text{
+	font-size: calc(100% + 1.5vw);
+	line-height: calc(100% + 1vw);
+	text-transform: uppercase;
+	padding-top: 3rem;
+	color: #FEB700;
+	font-weight: bold;
+	text-align: center;
+}
+::placeholder {
+	color: #FFFFFF;
+}
+@media screen and (max-width: 667px) { 
+	html{
+		font-size: 8px;
+	}
+	body{
+		font-size: 1.5rem;
+		line-height: 1.8rem;
+	}
+	.header,.footer{
+		height: 7rem;
+		padding: 0 2rem;
+	}
+	.header-text,.footer-text{
+		padding: 0 1rem;
+	}
+	.page{
+		padding: 3rem;
+	}
+	.personal{
+		padding: 0.4rem 1rem 1rem;
+		background: rgba(248, 191, 199, 0.6);
+	}
+	label{
+		padding: 0.6rem 0;
+	}
+	input[type="text"],input[type="email"],select[name="gift"] {
+		background-color: rgba(248, 191, 199, 0.2);
+	}
+	input[type="submit"] {
+		margin: 1rem;
+	}
+}
+@media screen and (max-width: 450px) { 
+	.text-content{
+		height: 30rem;
+	}
+}
