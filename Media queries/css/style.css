@@ -65,7 +65,9 @@ h1{
 		margin: 1rem;
 	}
 	.text{
-		font-size: 3.82vw;
-		line-height: 3.96vw;
+		font-size: calc(100% + 1.5vw);
+		line-height: calc(100% + 1vw);
+		/*font-size: calc( 25px + (50 - 25) * ( (100vw - 667px) / ( 1440 - 667) ));
+		line-height: calc( 29px + (57 - 29) * ( (100vw - 667px) / ( 1440 - 667) ));*/
 	}
 }
