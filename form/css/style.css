@@ -60,6 +60,7 @@ a{
 	border: 3px solid #FFFFFF;
 	border-radius: 20px;
 	padding: 1.4rem 3rem 3rem;
+	mix-blend-mode: lighten;
 }
 input[type="text"],input[type="email"],select[name="gift"] {
 	width: 100%;
@@ -116,7 +117,7 @@ input[type="submit"] {
 ::placeholder {
 	color: var(--main-tx-color);
 }
-@media screen and (max-width: 667px) { 
+@media screen and (max-width: 896px) { 
 	html{
 		font-size: 8px;
 	}
@@ -148,7 +149,7 @@ input[type="submit"] {
 		margin: 1rem;
 	}
 }
-@media screen and (max-width: 450px) { 
+@media screen and (max-width: 414px) { 
 	.text-content{
 		height: 30rem;
 	}
