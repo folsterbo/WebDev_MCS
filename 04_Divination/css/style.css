@@ -1,0 +1,126 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+	box-sizing: border-box;
+}
+html{
+	font-size: 10px;
+}
+body{
+	font-size: 2.3rem;
+	line-height: 3rem;
+	font-family: 'Raleway', sans-serif;
+	background-color: var(--main-bg-color);
+	font-weight: 400;
+}
+a{
+	text-decoration: none;
+}
+:root {
+	--main-bg-color: #E5E5E5;
+	--bg-color: #DCDFE0;
+	--main-tx-color: #022831;
+	--figure-color: blue;
+}
+.content{
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	padding-top: 16vw;
+}
+.figure{
+	width: 40vw;
+	height: 20vw;
+	border: 3px solid var(--main-bg-color);
+	border-radius: 50%;
+	position: absolute;
+	left: 30vw;
+	top: 10vw;
+	display: flex;
+	transform: rotate(-45deg);
+	mix-blend-mode: exclusion;
+}
+.content h1{
+	color: var(--main-tx-color);
+	margin: auto;
+	font-size: 6rem;
+	line-height: 7rem;
+	text-transform: uppercase;
+}
+.content h2{
+	color: var(--main-tx-color);
+	margin: auto;
+	font-size: 6rem;
+	line-height: 8rem;
+	text-transform: uppercase;
+}
+.newspaper{
+	width: 80vw;
+	margin: 25rem auto;
+	text-align: center;
+}
+.colomns{
+	width: 80vw;
+	margin: auto;
+	display: flex;
+	background-color: var(--main-bg-color);
+	justify-content: space-around;
+	position: relative;
+}
+.colomn-1{
+	width: 20vw;
+	height: 28vw;
+	border: 18px solid white;
+	border-radius: 5%;
+	background-image: url(/04_Divination/img/pawel-czerwinski-mFmNOinC6i4-unsplash.jpg);
+	background-size: cover;
+	cursor: pointer;
+	z-index: 2;
+	transform: rotateY(0deg);
+	box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.2);	
+}
+.colomn-2{
+	width: 20vw;
+	height: 28vw;
+	border: 20px solid white;
+	padding: 0 2rem;
+	border-radius: 5%;
+	background-color:var(--bg-color);
+	cursor: pointer;
+	transform: rotateY(90deg);
+	display: table;	
+	box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.2);
+}
+.colomn-2 p{
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+.down{
+	position: relative;
+	bottom: 28vw;
+}
+
+.colomn-1:hover {
+	animation: sonarEffect 0.9s ease-out 75ms;
+}
+
+@keyframes sonarEffect {
+	0% {
+		box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.2);
+	}
+	25% {
+		box-shadow: 0 20px 20px rgba(216, 155, 189, 0.035), 0 0 50px rgba(216, 155, 189, 0.35);
+	}
+	50% {
+			box-shadow: 0 20px 20px rgba(216, 155, 189, 0.5), 0 0 50px rgba(216, 155, 189, 0.5);
+			transform: scale(1.01);
+	}
+	75% {
+		box-shadow: 0 20px 20px rgba(216, 155, 189, 0.35), 0 0 50px rgba(216, 155, 189, 0.35);
+	}
+	100% {
+		box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.2);
+	}
+}
